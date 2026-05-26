@@ -1,6 +1,6 @@
 import "./IndustriesPage.css";
 
-import hospitalImg from "../assets/hospital.jpg";
+import hospitalImg from "../assets/hospital.webp";
 import restaurantImg from "../assets/restaurant.jpg";
 import buildersImg from "../assets/builders.jpg";
 import officeImg from "../assets/office.webp";

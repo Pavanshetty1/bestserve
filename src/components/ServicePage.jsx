@@ -23,7 +23,7 @@ import paint from "../assets/serviceimages/paint.jfif";
 import post from "../assets/serviceimages/postwork.jfif";
 import rodentImg from "../assets/serviceimages/rodentIng.jfif";
 import soil from "../assets/serviceimages/soil.jfif";
-import termiteImg from "../assets/serviceimages/termiteImg.jfif";
+import termiteImg from "../assets/serviceimages/termite2.jfif";
 import tile from "../assets/serviceimages/postinterior.jfif";
 import bedbug from "../assets/serviceimages/bedbug.jfif";
 import furniture from "../assets/serviceimages/furnituree.jfif";

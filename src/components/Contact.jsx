@@ -15,7 +15,7 @@ function Contact() {
         </p>
 
         <div className="contact-details">
-          <p>📞 +91 9876543210</p>
+          <p>📞 +91 7022292417</p>
 
           <p>📧 info@company.com</p>
 
