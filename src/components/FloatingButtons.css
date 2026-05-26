@@ -1,0 +1,90 @@
+.floating-buttons {
+  position: fixed;
+
+  right: 25px;
+  bottom: 25px;
+
+  display: flex;
+  flex-direction: column;
+
+  gap: 14px;
+
+  z-index: 999;
+}
+
+/* WHATSAPP */
+
+.whatsapp-btn {
+  width: 55px;
+  height: 55px;
+
+  border-radius: 50%;
+
+  background: #25d366;
+  color: white;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 28px;
+
+  text-decoration: none;
+
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+
+  transition: 0.3s;
+  animation: whatsappDance 1.5s infinite;
+}
+
+/* SCROLL TOP */
+
+.scroll-top-btn {
+  width: 50px;
+  height: 50px;
+
+  border: none;
+  border-radius: 50%;
+
+  background: #e63946;
+  color: white;
+
+  font-size: 24px;
+
+  cursor: pointer;
+
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+
+  transition: 0.3s;
+}
+
+.scroll-top-btn:hover {
+  transform: translateY(-5px);
+}
+
+/* .whatsapp-btn:hover {
+  animation: none;
+  transform: translateY(-5px);
+} */
+
+@keyframes whatsappDance {
+  0% {
+    transform: rotate(0deg) scale(1);
+  }
+
+  25% {
+    transform: rotate(8deg) scale(1.08);
+  }
+
+  50% {
+    transform: rotate(0deg) scale(1);
+  }
+
+  75% {
+    transform: rotate(-8deg) scale(1.08);
+  }
+
+  100% {
+    transform: rotate(0deg) scale(1);
+  }
+}

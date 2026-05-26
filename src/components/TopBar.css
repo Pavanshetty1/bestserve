@@ -1,0 +1,43 @@
+.topbar {
+  width: 100%;
+  height: 42px;
+
+  /* background: #06162b; */
+  background: #00449d;
+  color: white;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 0 40px;
+
+  font-size: 13px;
+}
+
+.topbar-socials {
+  display: flex;
+  gap: 19px;
+
+  font-size: 20px;
+
+  cursor: pointer;
+}
+
+.topbar-socials a {
+  text-decoration: none;
+  color: white;
+}
+.topbar-socials svg {
+  transition: 0.3s;
+}
+
+.topbar-socials svg:hover {
+  color: #e63946;
+}
+
+.topbar-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}

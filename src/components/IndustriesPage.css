@@ -1,0 +1,102 @@
+.industries-page {
+  width: 100%;
+  padding: 90px 7%;
+  background: #f7f9fc;
+}
+
+.industries-page-header {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.industries-page-header p {
+  color: #e63946;
+  font-size: 13px;
+  letter-spacing: 3px;
+  font-weight: 700;
+}
+
+.industries-page-header h1 {
+  font-size: 46px;
+  color: #08213f;
+  margin-top: 12px;
+}
+
+.industries-page-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+}
+
+.industry-photo-card {
+  background: white;
+  border-radius: 28px;
+  overflow: hidden;
+  box-shadow: 0 20px 55px rgba(8, 33, 63, 0.1);
+  transition: 0.3s ease;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.industry-photo-card:hover {
+  transform: translateY(-8px);
+}
+
+.industry-photo-card img {
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+}
+
+.industry-photo-content {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.industry-photo-content h3 {
+  font-size: 26px;
+  color: #08213f;
+  margin-bottom: 14px;
+}
+
+.industry-photo-content p {
+  color: #64748b;
+  font-size: 16px;
+  line-height: 30px;
+  margin-bottom: 24px;
+}
+
+.industry-photo-content button {
+  width: 50%;
+  border: none;
+  background: #e63946;
+  color: white;
+  padding: 14px 28px;
+  border-radius: 40px;
+  font-size: 15px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: 0.3s;
+  margin-top: auto;
+}
+
+.industry-photo-content button:hover {
+  background: #053679;
+}
+
+@media (max-width: 900px) {
+  .industries-page {
+    padding: 70px 20px;
+  }
+
+  .industries-page-header h1 {
+    font-size: 34px;
+  }
+
+  .industries-page-grid {
+    grid-template-columns: 1fr;
+  }
+}
