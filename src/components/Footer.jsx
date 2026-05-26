@@ -10,6 +10,7 @@ import {
   FaEnvelope,
   FaMapMarkerAlt,
 } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 function Footer() {
   return (
@@ -31,7 +32,7 @@ function Footer() {
 
           <div className="footer-socials">
             <a
-              href="https://www.instagram.com/"
+              href="https://www.instagram.com/bestserve_pest_management/"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -39,7 +40,7 @@ function Footer() {
             </a>
 
             <a
-              href="https://www.facebook.com/"
+              href="https://www.facebook.com/BSPMPL"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -47,7 +48,7 @@ function Footer() {
             </a>
 
             <a
-              href="https://www.linkedin.com/"
+              href="https://www.linkedin.com/company/bestserve-pest-management-pvt/"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -65,15 +66,25 @@ function Footer() {
         </div>
 
         {/* QUICK LINKS */}
-
         <div className="footer-box">
           <h3>Quick Links</h3>
 
           <ul>
-            <li>Home</li>
-            <li>About</li>
-            <li>Services</li>
-            <li>Contact</li>
+            <li>
+              <a href="/">Home</a>
+            </li>
+
+            <li>
+              <a href="/aboutdetails">About</a>
+            </li>
+
+            <li>
+              <a href="/services">Services</a>
+            </li>
+
+            <li>
+              <a href="#contact">Contact</a>
+            </li>
           </ul>
         </div>
 
@@ -83,10 +94,21 @@ function Footer() {
           <h3>Services</h3>
 
           <ul>
-            <li>Home Pest Control</li>
-            <li>Office Pest Control</li>
-            <li>Termite Control</li>
-            <li>Mosquito Control</li>
+            <li>
+              <a href="/servicespage">Pest Control Service</a>
+            </li>
+
+            <li>
+              <a href="/servicespage">Anti-Termite Treatment</a>
+            </li>
+
+            <li>
+              <a href="/servicespage">Deep Cleaning Service</a>
+            </li>
+
+            <li>
+              <a href="/servicespage">Interior Clean Up</a>
+            </li>
           </ul>
         </div>
 

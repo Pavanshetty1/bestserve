@@ -1,4 +1,4 @@
-.modal-overlay {
+/* .modal-overlay {
   position: fixed;
   top: 0;
   left: 0;
@@ -14,8 +14,38 @@
   align-items: center;
 
   z-index: 999;
-}
+} */
+/* 
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  width: 100%;
+  min-height: 100vh;
+  height: auto;
 
+  overflow-y: auto;
+  padding: 25px 15px;
+
+  align-items: flex-start;
+} */
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+
+  width: 100%;
+  min-height: 100vh;
+
+  background: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(5px);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  overflow-y: auto;
+
+  z-index: 999;
+}
 .booking-modal {
   width: 400px;
   background: white;
@@ -161,13 +191,122 @@
   }
 }
 
-@media (max-width: 480px) {
+/* @media (max-width: 768px) {
+  .modal-overlay {
+    padding: 20px;
+    align-items: center;
+  }
+
   .booking-modal {
-    width: 90%;
-    padding: 40px 25px;
+    width: 100%;
+    max-width: 400px;
+
+    padding: 35px 22px;
+
+    border-radius: 20px;
+
+    max-height: 90vh;
+    overflow-y: auto;
+  }
+
+  .booking-modal h2 {
+    font-size: 24px;
+  }
+
+  .modal-desc {
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .booking-form {
+    gap: 12px;
+  }
+
+  .booking-form input,
+  .booking-form textarea {
+    padding: 14px;
+    font-size: 14px;
+    border-radius: 12px;
+  }
+
+  .booking-form textarea {
+    min-height: 100px;
   }
 
   .submit-btn {
     width: 100%;
+    height: 46px;
+    font-size: 15px;
+  }
+
+  .close-btn {
+    width: 34px;
+    height: 34px;
+    font-size: 20px;
+  }
+
+  .success-message {
+    font-size: 13px;
+    line-height: 22px;
+  }
+} */
+
+@media (max-width: 768px) {
+  .modal-overlay {
+    align-items: flex-start;
+    overflow-y: auto;
+    padding: 20px 15px;
+  }
+
+  .booking-modal {
+    width: 100%;
+    max-width: 400px;
+
+    margin: auto;
+
+    padding: 35px 22px;
+
+    border-radius: 20px;
+  }
+
+  .booking-modal h2 {
+    font-size: 24px;
+  }
+
+  .modal-desc {
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .booking-form {
+    gap: 12px;
+  }
+
+  .booking-form input,
+  .booking-form textarea {
+    padding: 14px;
+    font-size: 14px;
+    border-radius: 12px;
+  }
+
+  .booking-form textarea {
+    min-height: 100px;
+  }
+
+  .submit-btn {
+    width: 100%;
+    height: 46px;
+    font-size: 15px;
+  }
+
+  .close-btn {
+    width: 34px;
+    height: 34px;
+    font-size: 20px;
+  }
+
+  .success-message {
+    font-size: 13px;
+    line-height: 22px;
   }
 }

@@ -97,3 +97,28 @@
     transform: translateX(-50%);
   }
 }
+
+@media (max-width: 768px) {
+  .clients-section {
+    padding: 50px 0;
+  }
+
+  .clients-section h2 {
+    font-size: 28px;
+    margin-bottom: 30px;
+  }
+
+  .clients-track {
+    animation: marquee 25s linear infinite;
+  }
+
+  .client-logo {
+    width: 120px;
+    height: 100px;
+    padding: 10px;
+  }
+
+  .client-logo img {
+    object-fit: contain;
+  }
+}

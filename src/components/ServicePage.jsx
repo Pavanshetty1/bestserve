@@ -7,26 +7,27 @@ import {
   FaPumpSoap,
   FaSprayCan,
 } from "react-icons/fa";
-import antitermite from "../assets/antitermite.png";
-import basement from "../assets/basement.png";
-import bathrroom from "../assets/bathrroom.png";
-import bedbugImg from "../assets/bedbug.png";
-import cockroachImg from "../assets/cockroach.png";
-import dust from "../assets/dust.png";
-import electrical from "../assets/electrical.png";
-import floor from "../assets/floor.png";
-import floorcleaning from "../assets/floorcleaning.png";
-import furniture from "../assets/furniture.png";
-import invisible from "../assets/invisible.png";
-import kitchen from "../assets/kitchen.png";
-import mosquitosImg from "../assets/mosquitos.png";
-import paint from "../assets/paint.png";
-import post from "../assets/post.png";
-import rodentImg from "../assets/rodent.png";
-import soil from "../assets/soil.png";
-import termiteImg from "../assets/termite.png";
-import tile from "../assets/tile.png";
-import windowimg from "../assets/windowimg.png";
+import antitermite from "../assets/serviceimages/termiteanti.jfif";
+import basement from "../assets/serviceimages/basement.jfif";
+import bathrroom from "../assets/serviceimages/bathroom.jfif";
+import cockroachImg from "../assets/serviceimages/cockroachImg.jfif";
+import dust from "../assets/serviceimages/dust.jfif";
+import electrical from "../assets/serviceimages/electrical.jfif";
+import floor from "../assets/serviceimages/floor.jfif";
+import floorprotection from "../assets/serviceimages/floorprotection.jfif";
+import windowImg from "../assets/serviceimages/windowImg.jfif";
+import invisible from "../assets/serviceimages/anti2.jfif";
+import kitchen from "../assets/serviceimages/kitchen.jfif";
+import mosquitosImg from "../assets/serviceimages/mosquitosImg.jfif";
+import paint from "../assets/serviceimages/paint.jfif";
+import post from "../assets/serviceimages/postwork.jfif";
+import rodentImg from "../assets/serviceimages/rodentIng.jfif";
+import soil from "../assets/serviceimages/soil.jfif";
+import termiteImg from "../assets/serviceimages/termiteImg.jfif";
+import tile from "../assets/serviceimages/postinterior.jfif";
+import bedbug from "../assets/serviceimages/bedbug.jfif";
+import furniture from "../assets/serviceimages/furnituree.jfif";
+
 import "./ServicePage.css";
 import BookingModal from "./BookingModal";
 
@@ -54,7 +55,7 @@ function ServicePage() {
         {
           title: "Bed Bug Elimination",
           desc: "Bed bugs hide inside mattresses, furniture and corners, causing skin irritation and sleepless nights. Our specialized treatment removes infestations and restores a hygienic living space.",
-          image: bedbugImg,
+          image: bedbug,
         },
         {
           title: "Mosquito & Fly Management",
@@ -80,22 +81,22 @@ function ServicePage() {
       items: [
         {
           title: "Prevent Termite Infestation",
-          desc: "Termites silently damage wooden structures and foundations over time. Our anti-termite treatment creates a protective barrier before serious damage happens.",
+          desc: "Termites silently damage wooden furniture, doors and building foundations, often going unnoticed until major repairs are needed. Our anti-termite treatment creates a long-lasting protective barrier that prevents infestation before serious structural damage occurs.",
           image: antitermite,
         },
         {
           title: "Invisible Protective Barrier",
-          desc: "Termites cannot detect the treatment and unknowingly carry it back to the colony.",
+          desc: "Termites easily spread through hidden wall gaps and underground pathways without visible signs. Our invisible protective barrier works silently beneath the surface, stopping termites while eliminating the colony from within.",
           image: invisible,
         },
         {
           title: "Basement Treatment Application",
-          desc: "Begins after basement excavation and before laying soling or plinth cement concrete.",
+          desc: "Basement and underground areas are highly vulnerable to termite entry through soil and foundation cracks. Our specialized basement treatment is applied before concrete work to block termite access and protect the structure from below ground level.",
           image: basement,
         },
         {
           title: "Soil Treatment Before Concrete Work",
-          desc: "Compacted and leveled soil is treated for maximum protection.",
+          desc: "Untreated soil beneath buildings can become a direct pathway for termites to attack the structure in the future. Our pre-construction soil treatment creates a strong chemical shield before concrete work begins, ensuring long-term termite protection.",
           image: soil,
         },
       ],
@@ -107,32 +108,32 @@ function ServicePage() {
       items: [
         {
           title: "Bathroom Deep Sanitization",
-          desc: "Removes stains, hard-water marks and harmful germs.",
+          desc: "Bathrooms easily collect germs, hard-water stains and unpleasant odors that affect hygiene and comfort. Our deep sanitization service thoroughly cleans and disinfects every surface, leaving your bathroom fresh, spotless and hygienic.",
           image: bathrroom,
         },
         {
           title: "Kitchen Degreasing & Cleaning",
-          desc: "Thorough cleaning of appliances, tiles, cabinets and countertops.",
+          desc: "Grease buildup, food stains and hidden bacteria in kitchens can create an unhealthy cooking environment. Our professional kitchen cleaning removes stubborn grease and deeply cleans appliances, cabinets, tiles and countertops for a sparkling hygienic space.",
           image: kitchen,
         },
         {
           title: "Floor & Surface Disinfection",
-          desc: "Eliminates dirt and bacteria for a spotless shine.",
+          desc: "Floors and frequently touched surfaces collect dirt, bacteria and invisible germs every day. Our disinfection service eliminates harmful contaminants while restoring a clean, polished and healthy environment.",
           image: floor,
         },
         {
           title: "Furniture & Upholstery Cleaning",
-          desc: "Removes dust, spills, allergens and odor.",
+          desc: "Sofas, chairs and upholstered furniture trap dust, spills, allergens and unwanted odors over time. Our deep upholstery cleaning refreshes your furniture, improves cleanliness and restores comfort to your living spaces.",
           image: furniture,
         },
         {
           title: "Windows, Doors & Fixture Cleaning",
-          desc: "Clear glass and polished surfaces for a fresh look.",
-          image: windowimg,
+          desc: "Dust, fingerprints and stains on windows and fixtures reduce the brightness and appearance of your interiors. Our detailed cleaning service restores crystal-clear glass and polished surfaces for a cleaner, fresher look.",
+          image: windowImg,
         },
         {
           title: "High & Hard-to-Reach Area Dusting",
-          desc: "Fans, vents, corners and elevated spaces thoroughly cleaned.",
+          desc: "Ceilings, vents, fans and elevated corners often collect hidden dust and cobwebs that are difficult to clean regularly. Our specialized dusting service reaches every corner to maintain a healthier and cleaner indoor environment.",
           image: dust,
         },
       ],
@@ -144,27 +145,27 @@ function ServicePage() {
       items: [
         {
           title: "Post-Interior Work Clean & Restore",
-          desc: "Complete debris removal and tidy-up to prepare the space for use.",
+          desc: "Interior work often leaves behind dust, debris, adhesive marks and construction waste that make the space unusable. Our cleaning and restoration service removes all residue and restores your interiors to a clean, fresh and move-in-ready condition.",
           image: tile,
         },
         {
           title: "Floor Protection & Safety Measures",
-          desc: "Floor guard installation to prevent scratches and damage during work.",
-          image: floorcleaning,
+          desc: "During renovation or interior work, floors can easily get scratched, stained or damaged by heavy movement and tools. Our floor protection solutions safeguard your surfaces and maintain their original finish throughout the project.",
+          image: floorprotection,
         },
         {
           title: "Electrical & Plumbing Support",
-          desc: "Shifting and adjustments to ensure smooth finishing and accessibility.",
+          desc: "Improper electrical or plumbing adjustments during interior work can lead to inconvenience, leakage or accessibility issues later. Our support service ensures smooth repositioning and proper setup for safe and efficient functionality.",
           image: electrical,
         },
         {
           title: "Painting Touch-Up & Finishing",
-          desc: "Fixing marks, stains and patchwork for a polished final look.",
+          desc: "Wall marks, uneven paint patches and finishing imperfections can reduce the overall appearance of newly completed interiors. Our touch-up and finishing service delivers smooth walls and a polished professional look.",
           image: paint,
         },
         {
           title: "During & Post-Work Deep Cleaning",
-          desc: "Dust, stains, cement spills and residue removed for a ready-to-use space.",
+          desc: "Renovation and interior projects leave behind fine dust, cement stains and stubborn residue that affect cleanliness and comfort. Our deep cleaning service thoroughly removes all post-work mess and prepares the space for immediate use.",
           image: post,
         },
       ],

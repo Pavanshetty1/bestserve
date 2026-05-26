@@ -17,7 +17,8 @@
 }
 
 .industries-page-header h1 {
-  font-size: 46px;
+  font-size: 40px;
+
   color: #08213f;
   margin-top: 12px;
 }
@@ -70,11 +71,11 @@
 }
 
 .industry-photo-content button {
-  width: 50%;
+  width: 40%;
   border: none;
   background: #e63946;
   color: white;
-  padding: 14px 28px;
+  padding: 10px 20px;
   border-radius: 40px;
   font-size: 15px;
   font-weight: 700;
@@ -87,16 +88,57 @@
   background: #053679;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 768px) {
   .industries-page {
-    padding: 70px 20px;
+    padding: 55px 20px;
+  }
+
+  .industries-page-header {
+    margin-bottom: 35px;
+  }
+
+  .industries-page-header p {
+    font-size: 12px;
+    letter-spacing: 2px;
   }
 
   .industries-page-header h1 {
-    font-size: 34px;
+    font-size: 30px;
+    line-height: 40px;
   }
 
   .industries-page-grid {
     grid-template-columns: 1fr;
+    gap: 22px;
+  }
+
+  .industry-photo-card {
+    border-radius: 20px;
+  }
+
+  .industry-photo-card img {
+    height: 220px;
+  }
+
+  .industry-photo-content {
+    padding: 22px 18px;
+  }
+
+  .industry-photo-content h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+  }
+
+  .industry-photo-content p {
+    font-size: 14px;
+    line-height: 26px;
+    margin-bottom: 20px;
+  }
+
+  .industry-photo-content button {
+    width: 100%;
+    padding: 13px;
+    font-size: 14px;
+    border-radius: 12px;
   }
 }

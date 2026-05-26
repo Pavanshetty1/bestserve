@@ -1,5 +1,5 @@
 import "./About.css";
-import aboutImg from "../assets/pestcontrol.jpg";
+import aboutImg from "../assets/aboutus1.jfif";
 import { useNavigate } from "react-router-dom";
 
 function About() {

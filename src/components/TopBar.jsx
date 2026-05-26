@@ -21,7 +21,7 @@ function TopBar() {
 
       <div className="topbar-socials">
         <a
-          href="https://www.instagram.com/"
+          href="https://www.instagram.com/bestserve_pest_management/"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -29,7 +29,7 @@ function TopBar() {
         </a>
 
         <a
-          href="https://www.facebook.com/"
+          href="https://www.facebook.com/BSPMPL"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -37,7 +37,7 @@ function TopBar() {
         </a>
 
         <a
-          href="https://www.linkedin.com/"
+          href="https://www.linkedin.com/company/bestserve-pest-management-pvt/"
           target="_blank"
           rel="noopener noreferrer"
         >

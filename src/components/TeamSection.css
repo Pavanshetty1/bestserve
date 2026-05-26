@@ -67,3 +67,46 @@
   font-size: 14px;
   font-weight: 600;
 }
+
+@media (max-width: 768px) {
+  .team-section {
+    padding: 55px 20px;
+  }
+
+  .team-section h2 {
+    font-size: 28px;
+    line-height: 38px;
+  }
+
+  .team-para {
+    width: 100%;
+    font-size: 15px;
+    line-height: 27px;
+    margin-bottom: 32px;
+  }
+
+  .team-grid {
+    grid-template-columns: 1fr;
+    gap: 22px;
+  }
+
+  .team-card {
+    border-radius: 18px;
+  }
+
+  .team-card img {
+    height: 380px;
+  }
+
+  .team-info {
+    padding: 20px;
+  }
+
+  .team-info h3 {
+    font-size: 19px;
+  }
+
+  .team-info p {
+    font-size: 13px;
+  }
+}
